@@ -29,6 +29,8 @@ int _printf(const char *format, ...)
 		if ('%' == format[cont_f])
 		{
 			test = 0;
+			cont_p = 0;
+
 			if (format[cont_f + 1] == '\0')
 				return (-1);
 			while (prt[cont_p].print != NULL && test != 1)
@@ -43,7 +45,9 @@ int _printf(const char *format, ...)
 				cont_p++;
 			}
 			if (prt[cont_p - 1].print == NULL)
+			{
 				_putchar(format[cont_f]);
+			}
 		}
 		else
 			_putchar(format[cont_f]);
