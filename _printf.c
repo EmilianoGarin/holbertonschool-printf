@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - 
+ * _printf - Prints anything
  *
  * @format:
  *
@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 {
 	int test = 0;
 	va_list ap;
-	unsigned int cont_f = 0, cont_p = 0, ret = 1;
+	int cont_f = 0, cont_p = 0, ret = 0;
 	pr prt[] = {
 		{'c', print_c},
 		{'s', print_s},
@@ -29,6 +29,8 @@ int _printf(const char *format, ...)
 		if ('%' == format[cont_f])
 		{
 			test = 0;
+			if (format[cont_f + 1] == '\0')
+				return (-1);
 			while (prt[cont_p].print != NULL && test != 1)
 			{
 				if (prt[cont_p].name == format[cont_f + 1])
@@ -47,7 +49,6 @@ int _printf(const char *format, ...)
 			_putchar(format[cont_f]);
 		cont_f++;
 	}
-	ret--;
 	va_end(ap);
 	return (ret + cont_f);
 }

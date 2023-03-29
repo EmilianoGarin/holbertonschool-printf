@@ -8,7 +8,7 @@ typedef struct printf
 {
 	char name;
 	int (*print)(va_list ap);
-}pr;
+} pr;
 int _putchar(char);
 int print_s(va_list ap);
 int print_c(va_list ap);
