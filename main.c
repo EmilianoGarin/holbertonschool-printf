@@ -12,8 +12,8 @@ int main(void)
     int len;
     int len2;
 
-    len = _printf("Hola%d%%%s%c\n%\nr", 2, "b", 't');
-    len2 = printf("Hola%d%%%s%c\n%\nr", 2, "b", 't');
+    len = _printf("Hola%d%%%s%c%\n%\n", 2, "b", 't');
+    len2 = printf("Hola%d%%%s%c%\n%\n", 2, "b", 't');
     printf("%d\n %d\n", len, len2);
     len = _printf("Hola%s\n", "b");
     len2 = printf("Hola%s\n", "b");

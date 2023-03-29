@@ -44,7 +44,7 @@ int _printf(const char *format, ...)
 				}
 				cont_p++;
 			}
-			if (prt[cont_p - 1].print == NULL)
+			if (test != 1)
 			{
 				_putchar(format[cont_f]);
 			}
