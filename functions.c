@@ -66,14 +66,25 @@ int print_int(va_list ap)
 {
 	int i = va_arg(ap, int);
 	int ret = 0;
-
+	int test = 0;
+	if (i == INT_MIN)
+	{
+		i = INT_MAX / 10;
+		_putchar ('-');
+		ret += 2;
+		test = 1;
+	}
 	if (i < 0)
 	{
 		_putchar('-');
 		i = -i;
 		ret++;
 	}
+	if (i == INT_MIN)
+		i = INT_MAX / 10;
 	ret += print_num(i);
+	if (test == 1)
+		_putchar ('8');
 	return (ret);
 }
 

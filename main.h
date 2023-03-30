@@ -3,6 +3,7 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <unistd.h>
+#include <limits.h>
 /**
  * struct printf - printf struct
  * @name: Is a char
