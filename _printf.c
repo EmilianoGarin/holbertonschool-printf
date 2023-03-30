@@ -30,7 +30,6 @@ int _printf(const char *format, ...)
 		{
 			test = 0;
 			cont_p = 0;
-
 			if (format[cont_f + 1] == '\0')
 				return (-1);
 			while (prt[cont_p].print != NULL && test != 1)
@@ -45,11 +44,8 @@ int _printf(const char *format, ...)
 				cont_p++;
 			}
 			if (test != 1)
-			{
 				_putchar(format[cont_f]);
-			}
-		}
-		else
+		} else
 			_putchar(format[cont_f]);
 		cont_f++;
 	}
