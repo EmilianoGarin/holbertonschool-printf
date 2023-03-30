@@ -12,11 +12,9 @@
 
 int _printf(const char *format, ...)
 {
-	int test = 0;
 	va_list ap;
-	int cont_f = 0, cont_p = 0, ret = 0;
-	pr prt[] = {
-		{'c', print_c},
+	int cont_f = 0, cont_p = 0, ret = 0, test = 0;
+	pr prt[] = {{'c', print_c},
 		{'s', print_s},
 		{'%', print_mod},
 		{'d', print_int},
@@ -24,7 +22,9 @@ int _printf(const char *format, ...)
 		{'\0', NULL}};
 
 	va_start(ap, format);
-	while (format[cont_f] != '\0')
+	if (format == NULL)
+		return (-1);
+	while (format != NULL && format[cont_f] != '\0')
 	{
 		if ('%' == format[cont_f])
 		{
