@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/EmilianoGarin/holbertonschool-printf">
-    <img src="https://lh3.googleusercontent.com/MwBupbkjSOz5x_NdtkXmviWRTkP1SfeXOaJzlWGWjlnbD_OsMdFbhmoKkxzhBRhoGTTAjKghdPrxN5FA-PdpllFhudjJcs20cQ7axV4r3HHyQl0St4ng0wf2QQddPH11G8JAU2FtMUzr_cZtprNG2nI6uRMnc-0OHITs-lgF01fLzHB1exjHhxsvdhW4kp2hFyii-J_Om81hkFLDHDVI4adxxEI2hPD3JDyWLTRJz4RaFBlK-VAO_d1JcRf_BMCljMeHpTYjX5gwXQcpVSnA1w3TvIfsBuOCzkh17oyYHKaQNcd9WUKkP1I8_rUHtHtCZxaz_7f1kOVvIwd8wnKE3GwFn4L94x3RWeqweJXejzoWXtWQMt7zlnO26x8scLWF9623yQ3Az_0mucMCyu24Bj7WMes1L1I7AOgBEZ7GH6yrqacWVVfC5L81pbHcbnoq_eOSAtdqY_-UPKAByb5W7sLdgVm8L-h7oOjFO-Es3hbS6pxdnoD-RrDYQQxz1-qVWjU9zM1Mv51gKmpR-vC5S6LLWTKl_WMrGwdDqvHdXkghEr6wi_fz4qr7Gb-oOPCe4v_4GT5LH3zSXGWwo2DqDmThq5si1_CGTiwhJQiLe-YD7KyMFpleKHX9vC7jmjcQE1f70zhbDjsTNIYqblx67nCJGVxHmPOAz8W1RB0TZ8Nw5uZxUnNKjg6Oy7jjHGf9TE7GJg_pGNWbEg6GLxVG67SghMZPoWXpfjyfIVafCfwtQUW2bWVqpoQxqQY5I9K5cJA9cvb0EQnkaCqKLyLMJ5kDnwjiEVZunXw_Q3_kF7r7T3dkmBuyeUBsUJMiBghiKizbgdrnXXu9u9BGzcWP087t9OosiluAum3elMl737n_V70wjahH6T7nbsaO_hNMGcUHoar_O9bJO4Ts__k8PyoWQ7YkXuyE-hLYCr-sm0RM3j9a4uld_mXVbKCbzfLPjJKtw8BXwu5s5mPR9fjbdCoCQDgn9MtJzhGrYmy5ZnB3tRACs-CmIUpZ=w600-h120-s-no?authuser=0" alt="Logo" width="600" height="120">
+    <img src="./_printf_Banner.png" alt="Logo" width="600" height="120">
   </a>
 
   <h3 align="center">_PRINTF</h3>
@@ -157,7 +157,7 @@ alex@ubuntu:~/c/printf$
   <summary><h2>Usage</h2></summary>
   <details>
     <summary><h3 align="center">Flowchart</h3></summary>
-    <img alt="_printf flowchart" src="https://lh3.googleusercontent.com/m35spL0PRHPwaJ2EB2gyYsqTKERjbDEYEwtGi6eSOyq5eumBvrFAEq9DV0gwm3m3pdew6U8ClGUtaMV3LrqAJxcLsJi2CpBWliJBYzwJt3f8XCHebLLt43o3MEWYFfPj2h8xxn4EUjtQcilA_DF1swfLwVPs32Cn1Us07KA4TBbTimOQ6ykS1lmgMlkGcbcC3YQiW9bSp63qbTwIb-9cyAQ1xNJZwNTroVQOUt2XyHG_1YhaToS6YTAHL2Cg98d5_jRloa6iqSoEYKDDb7zyj2ybope8ttMA2WJt5pjIJH_itwbMjL8yqlMeMbIPhTFTC4MtU5V9WlYazvub-cdLRpyCR_9cJCqSfM4W2WyLgRyUT2YtvTsZowZXGY8MtC_bWvgRtQ9EGnbEi0R_HX7qgPkllhvBbLrGiViVdLJvywAo7icpxOVl9xHwW6pNH9lbWkXNnrHZbVxKyXls0mWCFTa6O072f0JBUcTAR4f-1tWsHJb4mCWzyufaaRjXYcq0gD28kerT01dIb5fwrZlmHHiCMHvXau1dwqF143BmcWsfkVlOTATQvXAa-3s0kYTq47lj1IHVHIpMysj3JSPAqjN71uqKsqvkwCHI1P569mjdVOSWreVrNi6eUxX2YzMsR1ybTX0BLLIHt1sgeSJEdX8iqwvnq3SfRq8iGqCjQKTLzmhrKH3qU0S5Y2SOK00QKSK5OzH1NXfKAz6UIrWfVb7L5wwJfNRRLyuZaCU2Jm0oQvvmVJih302BG6Ea7VUa7Q2Lln4OtstgfRIy6usZyGNFO6AdYC8LzkEniq4pJkR5zWX-KzCuZjmyuxTWTh2ejDTImFVKXLSu9QFovYPXbpMlZ4vIKo2erTEDGJZcadNq1dpAW6xbWTaOlu5-FmrpHTY_8XEoayFUnMBUlCAhNOSpGBegOtOrq8XQ0yH4BeBZtSM-bMO0WBdha3-82YGSmCWuoCopyj_9_42SXRcrvpUIeABs_Rn0H6dS63zBXTMC7Xtt4522ivvd=w375-h797-s-no?authuser=0">
+    <img alt="_printf flowchart" src="_printf Flowchart.png">
   </details>
 What this function does is to go through the format constant character by character, and according to the character it finds, it evaluates and performs a function.
 <br>
