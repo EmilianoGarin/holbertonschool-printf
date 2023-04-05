@@ -222,6 +222,10 @@ Name: Robert, Gender: M, Age: 20.
     <td>%d, %i</td>
     <td>Signed decimal conversion of an integer</td>
   </tr>
+  <tr>
+    <td>%%</td>
+    <td>Prints the '%' sign</td>
+  </tr>
 </table>
 </details>
 </details>
